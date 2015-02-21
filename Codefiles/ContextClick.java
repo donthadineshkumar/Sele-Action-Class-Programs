@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ContextClick {
 	public static void main(String... args) {
 		WebDriver driver = new FirefoxDriver();
-		driver.get("file://C:/ContextClick.html");
+		driver.get("file:///home/dinesh/SeleniumPrac/Chapter 2/HTML/ContextClick.html");
 		WebElement contextMenu = driver.findElement(By.id("div-context"));
 
 		Actions builder = new Actions(driver);

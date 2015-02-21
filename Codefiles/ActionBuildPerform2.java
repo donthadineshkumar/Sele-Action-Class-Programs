@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionBuildPerform2 {
 	public static void main(String... args) {
 		WebDriver driver = new FirefoxDriver();
-		driver.get("file://C:/selectable.html");
+		driver.get("file:///home/dinesh/Desktop/tests-parallel/8850OS_Code/Chapter%202/HTML/selectable.html");
 		WebElement one = driver.findElement(By.name("one"));
 		WebElement three = driver.findElement(By.name("three"));
 		WebElement five = driver.findElement(By.name("five"));

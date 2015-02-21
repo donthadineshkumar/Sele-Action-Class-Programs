@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 public class DoubleClick2 {
 	public static void main(String... args) {
 		WebDriver driver = new FirefoxDriver();
-		driver.get("file://C:/DoubleClick.html");
+		driver.get("file:///home/dinesh/SeleniumPrac/Chapter 2/HTML/DoubleClick.html");
 		WebElement dblClick = driver.findElement(By.name("dblClick"));
 
 		Actions builder = new Actions(driver);
